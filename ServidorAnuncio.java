@@ -151,7 +151,7 @@ public class ServidorAnuncio{
 				ByteArrayInputStream bais = new ByteArrayInputStream(buffer);
 				ObjectInputStream is = new ObjectInputStream(bais);
 				int estado = (Integer)is.readObject();
-				System.out.println("Estado: " + estado);
+				//System.out.println("Estado: " + estado);
 				if(estado==1)
 					break;
 
